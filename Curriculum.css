@@ -1,0 +1,137 @@
+
+html{
+	background-color: #FE7221;
+	
+}
+
+body{
+	border: #672600 solid;
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto auto;
+}
+/** Aquí comienzan todos los elementos dentro del contenedor header.*/
+header{
+	background-color: white;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto;
+	grid-column-gap: 0rem;
+}
+
+#nombreTT{
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto auto;
+}
+
+#fotoDePerfil{
+	position: center;
+	width: 70%;
+	grid-column: auto;
+	grid-row: auto;
+	display: block;
+	margin: auto;
+}
+
+h1{
+	color: #672600;
+	text-align: center;
+	grid-column: auto;
+	grid-row: auto;
+	margin: 0;
+}
+
+.informaciónDeContacto{
+	grid-column: 3;
+	grid-row: auto;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto;
+}
+
+.informaciónDeContacto>p>img{
+	height: 20px;
+	width: 20px;
+}
+
+.informaciónDeContacto>p{
+	display: inline;
+	margin-top: auto;
+	margin-left: 0;
+}
+
+/** Aquí comienzan todos los elementos dentro del contenedor section*/
+section{
+		background-color: white;
+		display: grid;
+	grid-template-columns: 49.75% 49.75%;
+	grid-template-rows: auto auto auto;
+	grid-column-gap: 0.5%;
+}
+
+section>div>button{
+	background-color: #EC9F5E;
+	border: #FE7221 solid;
+	width: 100%;
+	height: 40px;
+	margin-top:2rem;
+}
+
+section>div>button>h2{
+	text-align: center;
+	margin: auto;
+}
+
+.flechabajo{
+	height: 20px;
+	width: 20px;
+}
+
+
+
+
+/**Aquí se encuentran las características que se desean para todos los elementos de un tipo o en general, que sin importar en que parte del documento se encuentren
+se los quiere de una forma en específico*/
+
+a{
+	color: black;
+}
+
+/**La parte de la section que se vinucla con el documento js*/
+
+#SobreMí{
+	
+	background-color: #FFA648;
+	display: none;
+}
+
+#FormaciónAcadémica{
+	
+	background-color: #FFA648;
+	display: none;
+}
+
+#Cursos{
+	
+	background-color: #FFA648;
+	display: none;
+}
+
+#Herramientas{
+	
+	background-color: #FFA648;
+	display: none;
+}
+
+#Destreza{
+	
+	background-color: #FFA648;
+	display: none;
+}
+
+#ExperienciaLaboral{
+	
+	background-color: #FFA648;
+	display: none;
+}
